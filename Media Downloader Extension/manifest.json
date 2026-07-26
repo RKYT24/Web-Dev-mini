@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "MediaVault",
+  "description": "Scan webpages for media.",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "MediaVault"
+  },
+
+  "icons": {
+    "128": "webdevlogo.png"
+  }
+}
